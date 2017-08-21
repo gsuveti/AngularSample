@@ -1,1 +1,1 @@
-export { ModuleAModule } from './module-a/module-a.module';
+export * from './public_api';

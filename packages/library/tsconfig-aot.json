@@ -19,13 +19,15 @@
     ]
   },
   "files": [
-    "./src/index.ts"
+    "./src/public_api.ts"
   ],
   "angularCompilerOptions": {
     "genDir": "release",
-    "skipTemplateCodegen": false,
+    "skipTemplateCodegen": true,
     "debug": true,
     "entryModule": "index#ModuleAModule",
+    "flatModuleOutFile": "index",
+    "flatModuleId": "@myapp/library",
 
     "skipMetadataEmit": false,
     "strictMetadataEmit": true

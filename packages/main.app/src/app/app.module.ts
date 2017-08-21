@@ -12,7 +12,7 @@ import { Routes, RouterModule } from '@angular/router';
 // /library/childroute
  const routes: Routes = [
 
-  { path: 'library', loadChildren: '@myapp/library/src/index#ModuleAModule' }
+  { path: 'library', loadChildren: '@myapp/library#ModuleAModule' }
 ];
 
 
