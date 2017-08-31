@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { ModuleAComponent } from './module-a.component';
 
@@ -19,7 +19,6 @@ import { routes , routableComponents} from './module-a.routes';
     FormsModule,
     CommonModule,
     RouterModule.forChild(routes),
-    NgbModule.forRoot(),
     
 
   ],
