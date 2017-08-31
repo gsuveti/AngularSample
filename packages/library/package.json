@@ -1,6 +1,6 @@
 {
   "name": "@myapp/library",
-  "version": "0.0.24",
+  "version": "0.0.29",
   "license": "ISC",
   "angular-cli": {},
   "main": "./src/index.js",

@@ -26,6 +26,13 @@ To consume a library package we need the next steeps:
 
 1. clone the repo
 2. npm install
-3. npm run dev:library
+3. npm run build:library
+4. go to /packages/library/releases
+5. npm link
+6. go to /packages/main.app
+7. npm link @myapp/library
+8. npm run start
 
-this will install all dependencies, compile the library, install the library in the main.app and build the main.app.
+
+
+
